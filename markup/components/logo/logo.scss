@@ -1,0 +1,24 @@
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+
+    &:hover {
+
+        @include screen_1200_min_width {
+            .logo__icon {
+                fill: $blue_5x;
+            }
+        }
+    }
+
+    &__icon {
+        display: block;
+        width: rem(150);
+        height: rem(50);
+
+        @include screen_1200_min_width {
+            transition: fill $trans_sm;
+        }
+    }
+}

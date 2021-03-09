@@ -1,0 +1,18 @@
+.link {
+    display: inline;
+    color: $blue_4x;
+    text-decoration: none;
+
+    &:hover {
+    	text-decoration: underline;
+    }
+}
+
+button.link {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+}

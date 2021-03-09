@@ -1,0 +1,28 @@
+.input {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: rem(10) rem(10) rem(11);
+    border: 1px solid $grey_3x;
+    outline: none;
+    background-color: transparent;
+    color: $grey_4x;
+    font-size: rem(14);
+    line-height: 1.25;
+
+    &::-webkit-input-placeholder {
+        color: $grey_3x;
+    }
+
+    &:-ms-input-placeholder {
+        color: $grey_3x;
+    }
+
+    &::-moz-placeholder {
+        color: $grey_3x;
+    }
+
+    &:-moz-placeholder {
+        color: $grey_3x;
+    }
+}

@@ -1,0 +1,52 @@
+.nav-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+	width: rem(85);
+	padding-top: rem(104);
+	border-right: 2px solid $grey_2x;
+    z-index: 1;
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    &__item {
+
+        &_active {
+            position: relative;
+
+            &:after {
+                content: " ";
+                display: block;
+                position: absolute;
+                top: 0;
+                right: rem(-2);
+                bottom: 0;
+                width: rem(4);
+                background-color: $blue_4x;
+                border-top-left-radius: rem(2);
+                border-bottom-left-radius: rem(2);
+            }
+
+            .button-icon {
+                color: $blue_4x;
+            }
+        }
+    }
+
+    &__button-icon {
+        padding: rem(24) rem(24) rem(24) rem(35);
+    }
+
+    &__button-rounded {
+        position: absolute;
+        right: rem(-20);
+        bottom: rem(65);
+        background-color: #f3f5fb;
+        z-index: 1;
+    }
+}

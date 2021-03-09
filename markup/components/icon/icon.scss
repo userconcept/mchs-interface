@@ -1,0 +1,27 @@
+.icon {
+    display: inline-block;
+    vertical-align: top;
+    height: auto;
+    fill: currentColor;
+
+    &_logo {
+        width: rem(150);
+        fill: $grey_3x;
+    }
+
+    &_arrow_right_rounded {
+        width: rem(40);
+    }
+
+    &_arrow_down {
+        width: rem(16);
+    }
+
+    &_search,
+    &_constructor,
+    &_calendar,
+    &_window,
+    &_gear {
+        width: rem(24);
+    }
+}

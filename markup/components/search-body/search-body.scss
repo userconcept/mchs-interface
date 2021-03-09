@@ -1,0 +1,40 @@
+.search-body {
+    margin: rem(16) 0 0;
+    padding: 0;
+    list-style: none;
+    max-height: rem(518);
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: $grey_2x transparent;
+
+    &::-webkit-scrollbar {
+        width: rem(4);
+        height: rem(4);
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: $grey_2x;
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+    &__link {
+        display: block;
+        padding: rem(12) rem(8);
+        color: $grey_4x;
+        text-decoration: none;
+
+        @include screen_1200_min_width {
+            transition: color $trans_sm;
+        }
+
+        &:hover {
+
+        	@include screen_1200_min_width {
+        		color: $blue_4x;
+        	}
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+	display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: rem(15) rem(44) rem(15) rem(42);
+    background-color: $white;
+    box-shadow: 0 rem(2) rem(4) rgba(137, 155, 184, .3);
+    z-index: 2;
+}

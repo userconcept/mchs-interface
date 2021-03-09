@@ -1,0 +1,12 @@
+<ul class="info-header {{className}}">
+    {{#each items}}
+        {{#if active}}
+            <li class="info-header__item info-header__item_active">
+                <h2 class="info-header__link">{{text}}</h2>
+        {{else}}
+            <li class="info-header__item">
+                <a class="info-header__link" href="{{href}}">{{text}}</a>
+        {{/if}}
+            </li>
+    {{/each}}
+</ul>

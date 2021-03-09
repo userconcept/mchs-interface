@@ -1,0 +1,49 @@
+.notifications {
+    padding-bottom: rem(60);
+    background-color: $blue_2x;
+    border-radius: $br_4;
+    position: relative;
+    overflow: hidden;
+
+    &__title {
+        padding: rem(13) 0;
+        font-size: rem(16);
+        background-color: $blue_3x;
+        color: $white;
+        text-align: center;
+    }
+
+    &__notifications-list {
+        position: absolute;
+        top: rem(46);
+        left: 0;
+        right: 0;
+        bottom: rem(60);
+        overflow-y: auto;
+        scrollbar-width: thin;
+        scrollbar-color: $blue_3x transparent;
+
+        &::-webkit-scrollbar {
+            width: rem(4);
+            height: rem(4);
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: $blue_3x;
+        }
+
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        right: rem(18);
+        bottom: rem(20);
+        font-size: rem(14);
+        line-height: 1.42857142857;
+    }
+}

@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Golos Text';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/GolosText-Regular.eot');
+    src: local('Golos Text Regular'), local('GolosText-Regular'),
+        url('../fonts/GolosText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Regular.woff2') format('woff2'),
+        url('../fonts/GolosText-Regular.woff') format('woff'),
+        url('../fonts/GolosText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/GolosText-Medium.eot');
+    src: local('Golos Text Medium'), local('GolosText-Medium'),
+        url('../fonts/GolosText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-Medium.woff2') format('woff2'),
+        url('../fonts/GolosText-Medium.woff') format('woff'),
+        url('../fonts/GolosText-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: url('../fonts/GolosText-DemiBold.eot');
+    src: local('Golos Text DemiBold'), local('GolosText-DemiBold'),
+        url('../fonts/GolosText-DemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GolosText-DemiBold.woff2') format('woff2'),
+        url('../fonts/GolosText-DemiBold.woff') format('woff'),
+        url('../fonts/GolosText-DemiBold.ttf') format('truetype');
+}

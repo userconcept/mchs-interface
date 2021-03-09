@@ -1,0 +1,57 @@
+.button-toggle {
+	font-size: 0;
+
+	&__label {
+		display: inline-block;
+		vertical-align: middle;
+		padding-right: rem(10);
+		color: $grey_5x;
+		font-size: rem(10);
+		line-height: 1.6;
+		-ms-user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        cursor: pointer;
+	}
+
+	&__checkbox {
+		display: none;
+
+		&:checked {
+
+			& ~ .button-toggle__switcher {
+				background-color: $blue_4x;
+				
+				&:before {
+					left: rem(24);
+				}
+			}
+		}
+	}
+
+	&__switcher {
+		display: inline-block;
+		vertical-align: middle;
+		width: rem(52);
+		height: rem(32);
+		border-radius: rem(16);
+		background-color: $grey_2x;
+		position: relative;
+		transition: background-color $trans_sm;
+		cursor: pointer;
+
+		&:before {
+			content: " ";
+			display: block;
+			position: absolute;
+			top: rem(4);
+			left: rem(4);
+			width: rem(24);
+			height: rem(24);
+			background-color: $white;
+			border-radius: 100%;
+			transition: left $trans_sm;
+		}
+	}
+}

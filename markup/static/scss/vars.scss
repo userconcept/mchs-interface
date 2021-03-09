@@ -1,0 +1,38 @@
+// File for scss-vars.
+// For example: main colors, paddings and so on.
+
+// Fonts:
+
+$font_normal: 'Golos Text', Arial, Helvetica, sans-serif;
+$font_bold: 'Golos Text', Arial, Helvetica, sans-serif;
+
+// Colors:
+
+$black: black;
+$white: white;
+$blue: #0099ff;
+
+$grey: #fcfcfe;
+$grey_1x: #f3f5fb;
+$grey_2x: #cbd3e3;
+$grey_3x: #94a2b6;
+$grey_4x: #68697c;
+$grey_5x: #4d4e5f;
+
+$blue_1x: #ecf3fe;
+$blue_2x: #b1d4fe;
+$blue_3x: #4c9ffd;
+$blue_4x: #0177fd;
+$blue_5x: #195a9b;
+
+// Border radius:
+
+$br_4: rem(4);
+$br_8: rem(8);
+
+// Transitions:
+
+$trans_sm: .15s ease;
+$trans_md: .25s ease;
+$trans_lg: .5s ease;
+$trans_none: 0s ease;

@@ -1,0 +1,11 @@
+{
+    "files": [
+        {
+            "name": "__componentName__.__templateExtension__",
+            "content": "<div class=\"__componentName__\"></div>"
+        }, {
+            "name": "__componentName__.__cssExtension__",
+            "content": ".__componentName__ {}"
+        }
+    ]
+}

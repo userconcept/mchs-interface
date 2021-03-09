@@ -1,0 +1,28 @@
+.button-icon {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: rem(8);
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 0;
+    color: $grey_3x;
+    cursor: pointer;
+
+    @include screen_1200_min_width {
+        transition: color $trans_sm;
+    }
+
+    &:hover {
+
+        @include screen_1200_min_width {
+            color: $blue_4x;
+        }
+    }
+
+    &__icon {
+        display: block;
+        width: rem(24);
+    }
+}
