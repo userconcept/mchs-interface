@@ -1,8 +1,8 @@
 // Common styles of the project
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -16,9 +16,9 @@ html {
     font-size: 100%;
     -webkit-text-size-adjust: none;
 
-    // @media screen and (min-width: 1600px) {
-    //     font-size: 1vw;
-    // }
+    @media screen and (min-width: 1600px) {
+        font-size: 1vw;
+    }
 }
 
 body {

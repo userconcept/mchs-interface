@@ -1,12 +1,12 @@
 .info {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	padding: rem(104) rem(364) rem(19) rem(123);
-	overflow-y: auto;
-	scrollbar-width: thin;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: rem(104) rem(364) rem(19) rem(123);
+    overflow-y: auto;
+    scrollbar-width: thin;
     scrollbar-color: $grey_3x transparent;
 
     &::-webkit-scrollbar {

@@ -1,15 +1,15 @@
 <li class="info-item {{className}}">
-	<div class="info-item__header">
-		{{> title/title title }}
-    	{{#if buttonToggle}}
-    		{{> button-toggle/button-toggle buttonToggle }}
-    	{{/if}}
-	</div>
+    <div class="info-item__header">
+        {{> title/title title }}
+        {{#if buttonToggle}}
+            {{> button-toggle/button-toggle buttonToggle }}
+        {{/if}}
+    </div>
     {{#if text}}
-    	{{> text/text text }}
+        {{> text/text text }}
     {{else if address}}
-    	{{> address/address address }}
+        {{> address/address address }}
     {{else if search}}
-    	{{> search/search search }}
+        {{> search/search search }}
     {{/if}}
 </li>

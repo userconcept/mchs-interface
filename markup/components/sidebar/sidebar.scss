@@ -1,12 +1,12 @@
 .sidebar {
-	width: rem(334);
-	position: fixed;
-	top: 0;
-	right: rem(6);
-	bottom: 0;
-	padding: rem(152) rem(38) rem(19) 0;
+    width: rem(334);
+    position: fixed;
+    top: 0;
+    right: rem(6);
+    bottom: 0;
+    padding: rem(152) rem(38) rem(19) 0;
 
-	&__notifications {
-		height: 100%;
-	}
+    &__notifications {
+        height: 100%;
+    }
 }

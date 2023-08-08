@@ -1,20 +1,20 @@
 .notifications-item {
-	padding: rem(16);
-	background-color: $blue_1x;
-	border-radius: $br_8;
+    padding: rem(16);
+    background-color: $blue_1x;
+    border-radius: $br_8;
 
-	& + .notifications-item {
-		margin-top: rem(24);
-	}
+    & + .notifications-item {
+        margin-top: rem(24);
+    }
 
-	&__text {
-		font-size: rem(12);
-	}
+    &__text {
+        font-size: rem(12);
+    }
 
-	&__time {
-		display: block;
-		margin-top: rem(8);
-		font-size: rem(10);
-		text-align: right;
-	}
+    &__time {
+        display: block;
+        margin-top: rem(8);
+        font-size: rem(10);
+        text-align: right;
+    }
 }

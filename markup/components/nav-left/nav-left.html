@@ -1,13 +1,13 @@
 <nav class="nav-left {{className}}">
     <ul class="nav-left__list">
         {{#each list}}
-        	{{#if active}}
-        		<li class="nav-left__item nav-left__item_active">
-        	{{else}}
-        		<li class="nav-left__item">
-        	{{/if}}
-                	{{> button-icon/button-icon this.buttonIcon }}
-            	</li>
+            {{#if active}}
+                <li class="nav-left__item nav-left__item_active">
+            {{else}}
+                <li class="nav-left__item">
+            {{/if}}
+                    {{> button-icon/button-icon this.buttonIcon }}
+                </li>
         {{/each}}
     </ul>
     {{> button-rounded/button-rounded buttonRounded }}

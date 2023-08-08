@@ -2,8 +2,8 @@ head: {
     index: {
         themeColor: '#ffffff',
         appleStatusBar: 'black-translucent',
-        description: 'MCHS Website.',
-        keywords: 'MCHS website',
-        title: 'MCHS - Test page',
+        description: 'User interface (Tars, Handlebars, Desktop only).',
+        keywords: 'ui, ux, user interface',
+        title: 'MCHS Interface - User interface',
     }
 }

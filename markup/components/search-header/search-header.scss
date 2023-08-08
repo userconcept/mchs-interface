@@ -1,16 +1,16 @@
 .search-header {
-	padding: rem(8) 0;
-	position: relative;
-	border-bottom: 1px solid $grey_2x;
+    padding: rem(8) 0;
+    position: relative;
+    border-bottom: 1px solid $grey_2x;
 
-	&__input {
-		width: 100%;
-		border-color: transparent;
-	}
+    &__input {
+        width: 100%;
+        border-color: transparent;
+    }
 
-	&__button-icon {
-		position: absolute;
-		top: rem(8);
-		right: 0;
-	}
+    &__button-icon {
+        position: absolute;
+        top: rem(8);
+        right: 0;
+    }
 }

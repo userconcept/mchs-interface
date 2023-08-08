@@ -6,7 +6,8 @@
     &:hover {
 
         @include screen_1200_min_width {
-            .logo__icon {
+
+            & .logo__icon {
                 fill: $blue_5x;
             }
         }

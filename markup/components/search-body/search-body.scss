@@ -32,9 +32,9 @@
 
         &:hover {
 
-        	@include screen_1200_min_width {
-        		color: $blue_4x;
-        	}
+            @include screen_1200_min_width {
+                color: $blue_4x;
+            }
         }
     }
 }

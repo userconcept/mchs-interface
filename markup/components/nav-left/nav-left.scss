@@ -3,9 +3,9 @@
     top: 0;
     left: 0;
     bottom: 0;
-	width: rem(85);
-	padding-top: rem(104);
-	border-right: 2px solid $grey_2x;
+    width: rem(85);
+    padding-top: rem(104);
+    border-right: 2px solid $grey_2x;
     z-index: 1;
 
     &__list {
@@ -19,8 +19,8 @@
         &_active {
             position: relative;
 
-            &:after {
-                content: " ";
+            &::after {
+                content: "";
                 display: block;
                 position: absolute;
                 top: 0;
@@ -32,7 +32,7 @@
                 border-bottom-left-radius: rem(2);
             }
 
-            .button-icon {
+            & .button-icon {
                 color: $blue_4x;
             }
         }

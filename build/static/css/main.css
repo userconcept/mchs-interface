@@ -207,8 +207,8 @@ template {
 }
 
 *,
-:after,
-:before {
+::after,
+::before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box
 }
@@ -383,7 +383,7 @@ button.link {
     background-color: #0177fd
 }
 
-.button-toggle__checkbox:checked~.button-toggle__switcher:before {
+.button-toggle__checkbox:checked~.button-toggle__switcher::before {
     left: 1.5rem
 }
 
@@ -400,8 +400,8 @@ button.link {
     cursor: pointer
 }
 
-.button-toggle__switcher:before {
-    content: " ";
+.button-toggle__switcher::before {
+    content: "";
     display: block;
     position: absolute;
     top: .25rem;
@@ -472,8 +472,8 @@ button.link {
     position: relative
 }
 
-.nav-left__item_active:after {
-    content: " ";
+.nav-left__item_active::after {
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -623,8 +623,8 @@ button.link {
     position: relative
 }
 
-.info-header__item+.info-header__item:before {
-    content: " ";
+.info-header__item+.info-header__item::before {
+    content: "";
     display: block;
     position: absolute;
     top: 0;
@@ -787,7 +787,11 @@ button.link {
     height: 100%
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1600px) {
+    html {
+        font-size: 1vw
+    }
+
     .link:hover {
         text-decoration: underline
     }

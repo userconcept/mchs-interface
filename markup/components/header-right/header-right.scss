@@ -1,18 +1,16 @@
 .header-right {
-	font-size: 0;
+    font-size: 0;
 
-	&__title {
-		display: inline-block;
-		vertical-align: top;
-		max-width: rem(700);
-		margin-right: rem(8);
-		font-size: rem(16);
-		line-height: 1.25;
-		text-align: right;
-		color: $grey_4x;
-	}
+    &__title {
+        display: inline-block;
+        vertical-align: top;
+        max-width: rem(700);
+        margin-right: rem(8);
+        font-size: rem(16);
+        line-height: 1.25;
+        text-align: right;
+        color: $grey_4x;
+    }
 
-	&__button-nav {
-
-	}
+    &__button-nav {}
 }
