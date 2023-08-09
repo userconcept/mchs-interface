@@ -3,27 +3,34 @@
     "short_name": "mchs-interface",
     "description": "User interface (Tars, Handlebars, Desktop only).",
     "display": "minimal-ui",
-    "start_url": "/",
-    "id": "/",
+    "start_url": "/mchs-interface/build",
+    "id": "/mchs-interface/build",
     "theme_color": "#000000",
     "background_color": "#000000",
     "icons": [
         {
-            "src": "/favicon-192.png",
+            "src": "/mchs-interface/build/favicon-192.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "any"
         },
         {
-            "src": "/favicon-192_maskable.png",
+            "src": "/mchs-interface/build/favicon-192_maskable.png",
             "type": "image/png",
             "sizes": "192x192",
             "purpose": "maskable"
         },
         {
-            "src": "/favicon-512.png",
+            "src": "/mchs-interface/build/favicon-512.png",
             "type": "image/png",
-            "sizes": "512x512"
+            "sizes": "512x512",
+            "purpose": "any"
+        },
+        {
+            "src": "/mchs-interface/build/favicon-512_maskable.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
         }
     ]
 }
